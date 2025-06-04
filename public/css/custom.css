@@ -1,0 +1,222 @@
+.hanalogo {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.navbar {
+    background-color: #6f4e37 !important; 
+    color : white !important; 
+}
+
+.bg-gradient-primary {
+    background-color: #cdb79e !important;
+    background-image: none !important;
+}
+.sidebar .nav-link {
+    color : #ffffff !important; 
+}
+.sidebar .nav-link i {
+    color : white !important; 
+}
+.card {
+    background-color: #ffffff; 
+    border-radius: 10px; /* Membuat sudut membulat */
+}
+.card {
+    background-color: #ffffff; /* Putih, bisa diganti */
+    border-radius: 10px; /* Membuat sudut membulat */
+}
+.btn-primary {
+    background-color: #cdb79e !important; /* Warna baru */
+    border-color: #cdb79e !important; /* Sesuaikan border */
+}
+
+.border-penjualan {
+    border-left: 5px solid #58320e !important; 
+}
+ 
+.border-pendapatan {
+    border-left: 5px solid #98662d !important; 
+}
+ 
+.border-pesanan {
+    border-left: 5px solid #b8892a !important; 
+}
+ 
+.border-pesan {
+    border-left: 5px solid #ffcc00 !important; 
+}
+.text-penjualan {
+    color: #58320e !important; 
+}
+ 
+.text-pendapatan {
+    color: #98662d !important; 
+}
+ 
+.text-pesanan {
+    color: #b8892a !important; 
+}
+ 
+.text-pesan {
+    color: #ffcc00 !important; 
+}
+.text-earnings {
+    color: #6f4e37 !important; 
+}
+ 
+.text-revenue {
+    color: #6f4e37 !important; 
+}
+.text-hannacatering {
+    color: #6f4e37 !important; 
+}
+ 
+.text-selamat {
+    color: #6f4e37 !important; 
+}
+
+.text-online {
+    color: #58320e !important; 
+}
+.text-referral {
+    color: #98662d !important; 
+}
+.text-offline {
+    color: #ffcc00 !important; 
+}
+.nav-item {
+    transition: all 0.3s ease-in-out;
+}
+ 
+.nav-item a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    position: relative;
+}
+ 
+/* Efek hover (bayangan + sedikit geser) */
+.nav-item:hover {
+    transform: translateX(5px);
+    box-shadow: 3px 3px 10px rgba(201, 197, 197, 0.3);
+}
+ 
+/* Transisi agar smooth */
+.nav-item, .nav-item:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.data-menu-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+.data-paket-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+.data-pesanan-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+.data-pelanggan-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+.data-laporan-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+.data-bank-title {
+    color: #58320e; 
+    font-weight: bold;
+}
+
+h1 {
+    margin-left: 20px; /* Geser ke kanan */
+    color: #58320e; 
+}
+
+.btn-action {
+    margin-right: 10px; /* Menambah jarak antara tombol */
+}
+
+.btn-detail {
+    background-color: #6f4e37 !important;
+    color: white !important;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.btn-danger {
+    background-color: #e74a3b !important;
+    color: white !important;
+    border: none;
+    padding: 5px 13px;
+    border-radius: 5px;
+}
+.btn-add{
+    background-color: #58320e !important; 
+    color: white !important;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.modal-content {
+    background-color: #cdb79e !important; 
+    color: white !important; /* Warna teks */
+    border: none; /* Hilangkan border */
+    padding: 8px 12px; /* Atur ukuran tombol */
+    border-radius: 5px; /* Membuat sudut membulat */
+    font-weight: bold; /* Teks lebih tebal */
+}
+.text-webpengguna {
+    color: #d49f2c !important; 
+}
+/* Ubah warna teks dropdown */
+.dropdown-menu a.dropdown-item {
+    color: #141414; /* Misalnya hitam */
+  }
+  
+  /* Tambahkan hover style juga */
+  .dropdown-menu a.dropdown-item:hover {
+    background-color: #f8f9fa; /* Background hover */
+    color: #654c27; 
+  }
+
+.fix-zindex {
+  z-index: 9999 !important;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 9999 !important;
+  }
+
+  .navbar, .nav-item {
+    position: relative;
+    z-index: 10;
+  }
+
+  .dropdown-header-custom-alert-header {
+    background-color: #654c27;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+ 
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 500px;
+}
+

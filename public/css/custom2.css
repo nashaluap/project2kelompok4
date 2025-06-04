@@ -1,0 +1,190 @@
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body .btn {
+    margin-top: 10px;
+}
+
+.card-body .btn-add {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #6b4f29; /* warna coklat untuk View Details */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.card-body .btn-add:hover {
+    background-color: #4d361e; /* warna saat hover */
+}
+.card-body .btn-add:active {
+    background-color: orange; /* warna oranye saat tombol ditekan */
+    box-shadow: 0 0 10px orange, 0 0 40px orange; /* efek nyala glow */
+    transform: scale(0.95); /* sedikit mengecil saat diklik */
+}
+.btn-add{
+    background-color: #58320e !important; 
+    color: white !important;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.text-success2{
+    color: 58320e4 !important;
+}
+.nav-item .badge {
+font-size: 0.6rem;
+padding: 4px 6px;
+}
+
+.nav-item .position-relative {
+width: 24px;
+height: 24px;
+}
+
+/* ======= Warna Dasar Tema Hanna Catering ======= */
+:root {
+    --coklat-tua: #6f4e37;
+    --coklat-muda: #cdb79e;
+    --coklat-gelap: #58320e;
+    --coklat-sedang: #98662d;
+    --coklat-terang: #b8892a;
+    --orange-kuning: #ffcc00;
+    --putih: #ffffff;
+}
+
+/* ======= Struktur Form Pemesanan ======= */
+body {
+    background-color: var(--putih);
+    font-family: 'Poppins', sans-serif;
+}
+
+h2, h3 {
+    color: var(--coklat-tua);
+    font-weight: bold;
+}
+
+form label {
+    color: var(--coklat-gelap);
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    border: 1px solid var(--coklat-muda);
+    background-color: var(--putih);
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: var(--coklat-gelap);
+    outline: none;
+}
+
+/* ======= Button Checkout ======= */
+button[type="submit"] {
+    background-color: var(--coklat-muda);
+    color: var(--putih);
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--coklat-gelap);
+}
+
+/* ======= Card dan Table Style ======= */
+.bg-white {
+    background-color: var(--putih);
+    border-radius: 12px;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid var(--coklat-muda);
+}
+
+thead {
+    background-color: var(--coklat-muda);
+    color: var(--putih);
+}
+
+tfoot {
+    background-color: var(--coklat-tua);
+    color: var(--putih);
+}
+
+/* ======= Ringkasan Pesanan Table ======= */
+.table-total {
+    background-color: var(--coklat-tua);
+    font-weight: bold;
+}
+
+/* ======= Responsive Grid ======= */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.btn-confirm {
+    background-color: #FFA500; /* warna oranye kayak logomu */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-confirm:hover {
+    background-color: #e69500;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
